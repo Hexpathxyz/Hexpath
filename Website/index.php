@@ -1,4 +1,5 @@
 	<?php include 'includes/header.php'?>
+</div>
 		<div id="featured">
 				<h2>Latest Chapters</h2>
 				<br/>
@@ -6,23 +7,23 @@
 			<div>
 			</div>
 		</div>
-		<ul>
+	<ul>
 			<li>
-				<a href="Prologue.php">
+				<a href="prologue.php">
 					<img  class = gifsize src="images/c1.png" alt="">
 					<span>Prologue</span>
 				</a>
 			</li>
 			<li>
-					<a href="Birth.php">
+					<a href="birth.php">
 					<img  class = gifsize src="images/c2.png" alt="">
 					<span>Birth</span>
 				</a>
 			</li>
 			<li>
-				<a href="undercon.php">
-					<img  class = gifsize src="images/404chanicon.png" alt="">
-					<span>TBA</span>
+				<a href="sacrifice.php">
+					<img  class = gifsize src="images/c3.png" alt="">
+					<span>Sacrifice</span>
 				</a>
 			</li>
 		</ul>

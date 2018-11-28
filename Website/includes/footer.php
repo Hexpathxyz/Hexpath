@@ -1,4 +1,5 @@
 	</div>
+	</div>
 	<div id="footer">
 		<div>
 			<p>&copy; 2018 Hexpath Productions </p>

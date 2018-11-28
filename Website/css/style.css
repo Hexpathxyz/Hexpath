@@ -429,3 +429,16 @@ p a:hover {
 	float: right;
 
 }
+ div .map {
+	margin: 0 auto;
+	width: 1500px;
+}
+.divright{
+	float: right;
+padding-right: 100px;
+}
+.divleft{
+	
+	float: left;
+
+}

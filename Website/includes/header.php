@@ -22,7 +22,7 @@
 				<a href='undercon.php'>Characters</a>
 			</li>
 			<li>
-				<a href="undercon.php">Map</a>
+				<a href="map.php">Map</a>
 			</li>
 			<li>
 				<a href="chapters.php">Chapters</a>
@@ -30,3 +30,4 @@
 		</ul>
 	</div>
 	<div id="body">
+		<div  class="article">

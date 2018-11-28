@@ -1,18 +1,31 @@
-<?php include 'includes/header.php' ?>
-		<h1><span>prologue</span></h1>
-		<div>
-		
-			<div class="article">
-				<h2>World Map</h2>
+<?php include 'includes/header.php';
+include 'includes/zoom.php' 
+?>
+<h1><span>World Map</span></h1>
+<div class="map">
 
-<img src="images/map.png"alt="Planets" usemap="#map">
+<div class="img-zoom-container divleft">
+  <img id="myimage" src="images/map.png" width="1024" height="600">
+  </div>
+  <div class="img-zoom-container divright" >
+  	<h2>Zoom</h2>
+  <div id="myresult" class="img-zoom-result"></div>
+</div>
 
-<map name="map">
-  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
-  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
-  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
-</map>
-			</div>
-		</div>
-	</div>
+</div>
+	
+<ul>
+	<h3><a href="erova.php">Erova</a></h3>
+<p><a href="capitol_erova.php">Capitol</a></p>
+<p><a href="uvera_mtn_military_base">Uvera Moutain Military Base</a></p>
+	<h3><a href="erova.php">Fortera</a></h3>
+<p><a href="capitol_fortera.php">Capitol</a></p>
+	<h3><a href="erova.php">Norum</a></h3>
+<p><a href="capitol_norum.php">Capitol</a></p>
+
+	
+</ul>
+<script>
+imageZoom("myimage", "myresult");
+</script>
 <?php include 'includes/footer.php' ?>

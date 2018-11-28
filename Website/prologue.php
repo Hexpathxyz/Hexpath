@@ -2,7 +2,7 @@
 		<h1><span>prologue</span></h1>
 		<div>
 		
-			<div class="article">
+			<div >
 				<h2>Hexpath</h2>
 			<p>
 			
