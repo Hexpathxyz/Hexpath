@@ -13,19 +13,19 @@ include 'includes/zoom.php'
 </div>
 
 </div>
-	
+<div>	
 <ul>
-	<h3><a href="erova.php">Erova</a></h3>
-<p><a href="capitol_erova.php">Capitol</a></p>
-<p><a href="uvera_mtn_military_base">Uvera Moutain Military Base</a></p>
-	<h3><a href="erova.php">Fortera</a></h3>
-<p><a href="capitol_fortera.php">Capitol</a></p>
-	<h3><a href="erova.php">Norum</a></h3>
-<p><a href="capitol_norum.php">Capitol</a></p>
+	<h3><a href="undercon.php">Erova</a></h3>
+<p><a href="places/erova.php">Capitol</a></p>
+<p><a href="undercon.php">Uvera Military Base</a></p>
+	<h3><a href="undercon.php">Fortera</a></h3>
+<p><a href="undercon.php">Capitol</a></p>
+	<h3><a href="undercon.php">Norum</a></h3>
+<p><a href="undercon.php">Capitol</a></p>
 <?php InsertBreakingSpaceBlock(); ?>
 	
-	
 </ul>
+</div>
 <script>
 imageZoom("myimage", "myresult");
 </script>
