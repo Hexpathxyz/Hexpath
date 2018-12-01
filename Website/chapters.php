@@ -40,4 +40,7 @@
 				</li>
 			</ul>
 		</div>
-<?php include 'includes/footer.php' ?>
+<?php 
+InsertBreakingSpaceBlock();
+include 'includes/footer.php'
+ ?>

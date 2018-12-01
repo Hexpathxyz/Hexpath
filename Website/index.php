@@ -27,5 +27,11 @@
 				</a>
 			</li>
 		</ul>
-<?php include 'includes/footer.php' ?>
+<?php
+
+InsertBreakingSpaceBlock();
+InsertBreakingSpaceBlock();
+InsertBreakingSpaceBlock();
+
+ include 'includes/footer.php' ?>
 

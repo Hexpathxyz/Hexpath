@@ -1,3 +1,6 @@
+<?php
+include "functions.php";
+?>
 <!doctype html>
 <!-- Website Template by freewebsitetemplates.com -->
 <html>
@@ -11,7 +14,7 @@
 </head>
 <body>
 	<div id="header">
-			 <img class= sitelogo src="images/logo.png" alt="">
+			 <img class= sitelogo src="images/logo.png" alt="This logo is broken for some reason, Shoot me a Dm on twitter if you see this">
 			
 		
 		<ul id="navigation">

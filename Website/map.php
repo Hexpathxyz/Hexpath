@@ -22,10 +22,11 @@ include 'includes/zoom.php'
 <p><a href="capitol_fortera.php">Capitol</a></p>
 	<h3><a href="erova.php">Norum</a></h3>
 <p><a href="capitol_norum.php">Capitol</a></p>
-
+<?php InsertBreakingSpaceBlock(); ?>
+	
 	
 </ul>
 <script>
 imageZoom("myimage", "myresult");
 </script>
-<?php include 'includes/footer.php' ?>
+<?php include 'includes/footer.php' ?>																					
